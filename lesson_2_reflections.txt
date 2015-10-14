@@ -25,3 +25,10 @@ Branches would be great for doing changes like the one in the lesson. We made th
 game unchanged, while also making an easier mode for other people. If we wanted to add an easy mode to the original game, this branch could be used and 
 we could add a difficulty option to the game. Branches allow for things that would change the project and still allow the master project to stay the same.
 They can be very good for experimental changes, or changes you do not want entered into your game yet, but would like to be able to test and perfect first.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams are helpful in that they give you something to look at to know where you are in a project. Just looking at the terminal output could end up 
+confusing people and end up with them not knowing which branch they are on. When you checkout a branch a commit in git, all commits after seem like they never happened.
+Using diagrams can help you understand what has changed after this commit without having to go back to the tip of the branch.

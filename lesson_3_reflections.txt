@@ -10,3 +10,14 @@ up-to-date with your remote repository?
 Pulling changes manually allows you to determine what changes you pull and when you pull them.
 Allowing Git to do so automatically could mean that you get incomplete changes or a change that 
 could break your project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks allow you to make changes to a repository and host them on your account with a link to the original.
+Clones allow you to clone any repository and work on it, but will not allow you to push your commits to the 
+original without permission.
+Branches are used when something new has been added to the project, but is not quite ready to be shown. 
+
+I would use a fork instead of just cloning a repository if I wanted to make changes to a project that I 
+did not have permission to actually change. Doing this I would fork the repository to my account and then,
+if needed, clone it to my local machine before making changes.

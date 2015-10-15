@@ -38,3 +38,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result is that all changes added in the branch are now a part of the master branch. Meaning that this is the "finished" version of our game. It is represented the 
 way it is because it makes it easier to understand when you can look at something visually.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The automatic merging is much simpler and will not easily end up breaking your project. Doing this manually can do the same thing, but has the downside of user error. 
+Git's automatic system can also have the downside of user error, but it is easier to see what went wrong and where the changes are (for the most part).

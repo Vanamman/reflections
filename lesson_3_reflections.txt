@@ -21,3 +21,10 @@ Branches are used when something new has been added to the project, but is not q
 I would use a fork instead of just cloning a repository if I wanted to make changes to a project that I 
 did not have permission to actually change. Doing this I would fork the repository to my account and then,
 if needed, clone it to my local machine before making changes.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to know what has been changed if you are about to go somewhere where you will not have 
+internet access for a period of time, but still need to do some work. It also allows you to see the last changes 
+made to the remote and possibly help you avoid conflict with your own commits.

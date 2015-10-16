@@ -39,3 +39,15 @@ get too much done. You could also try to use a different system.
 Using Git and GitHub is far easier than trying to find other ways to collaborate with others. Having to meet in person or over 
 Skype would be tedious and cause issues. You could create a private chat room for you and your collaborators somewhere, but that 
 would still require others being around at the same times that you are.
+
+
+When would you want to make changes in a seperate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make a seperate branch when working on a new feature that is not in any way a part of the project yet. It allows 
+you to make changes to the code without fear of breaking the already usable code in the master branch. It also makes it easier to 
+distinguish what changes are being made to the project through a pull request.
+
+Making changes directly to master would be used more for bug fixes or small changes that don't add or remove anything significant, 
+while using branches can allow you to make big changes easier and be sure that everything works properly before pushing them to the 
+master branch. The benefit of using only the master branch is that it makes it less complicated and I think has more uses for smaller 
+or personal projects. Using branches benefits collaberative projects by being able to distinguish exactly what is being added.
